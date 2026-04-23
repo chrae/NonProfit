@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Inventory"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Structured placeholder for the next major implementation area."
+            android:textColor="#6A6A6A" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="#11AAAAAA"
+            android:padding="16dp"
+            android:text="Stock Ledger\nOn-hand quantities, lot tracking, and shelf location visibility." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#11AAAAAA"
+            android:padding="16dp"
+            android:text="Distribution Queue\nPick lists, outbound requests, and fulfillment status." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#11AAAAAA"
+            android:padding="16dp"
+            android:text="Intake Capture\nTablet-first intake with AI-assisted metadata proposals." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#11AAAAAA"
+            android:padding="16dp"
+            android:text="Expiry / Safety\nDate-based alerts, quarantine handling, and compliance notes." />
+    </LinearLayout>
+</ScrollView>
