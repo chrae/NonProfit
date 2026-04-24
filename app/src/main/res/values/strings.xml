@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">NonProfit</string>
+    <string name="volunteer_detail_template">Status: %1$s
+Hours this month: %2$d
+Program: %3$s
+Next shift: %4$s
+Forms: %5$s
+
+Planned detail modules:
+• Contact and emergency profile
+• Availability and skill tags
+• Attendance and hour ledger
+• Required form completion state</string>
+    <string name="volunteer_action_check_in">Volunteer check-in flow is next in roadmap.</string>
+    <string name="volunteer_action_log_hours">Volunteer hour logging flow is next in roadmap.</string>
 </resources>
